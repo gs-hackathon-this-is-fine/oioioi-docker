@@ -43,7 +43,7 @@ services:
       - db
       - broker
   worker:
-    image: sio2project/sioworkers
+    image: liquidpl/sioworkers:test
     stop_grace_period: 1m
     cap_add:
       - ALL
